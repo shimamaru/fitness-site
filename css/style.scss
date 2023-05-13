@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+body {
+  font-family: "Josefin Sans", sans-serif;
+  overflow-x: hidden;
+  color: #111;
+}
+
+
+header {
+  display: flex;
+  z-index: 99;
+  position: fixed;
+  height: 80px;
+  width: 100%;
+  justify-content: space-between;
+
+  header > a {
+    text-decoration: none;
+    color: inherit;
+  }
+}
